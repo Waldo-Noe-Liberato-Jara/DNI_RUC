@@ -10,6 +10,7 @@ function Consulta() {
     const HandleEstado = (e) => {
         setEstado(e);
         setNumeroDocumento("");
+        console.log(numeroDocumento);
     }
 
     return (
